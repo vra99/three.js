@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Your own custom component styles */
+
+@import 'tailwindcss/utilities';
+
+.border-box {
+  border: 1px solid #dddddd !important;
+  border-radius: 12px !important;
+}
