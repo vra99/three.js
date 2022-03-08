@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
 import { Physics, usePlane, useBox } from "@react-three/cannon";
-import Car from '@/components/models/Car';
+// import Car from '@/components/models/Car';
 import type { Mesh } from "three";
 
 
