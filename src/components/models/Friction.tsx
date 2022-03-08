@@ -133,7 +133,7 @@ function PhysicsContent( { color, hoverColor } : ColorsProps ) {
       <Box
         material={bouncyMaterial}
         position={[-2, 0.1, 0]}
-        color={materialColors.bouncy}
+        color={ color }
         args={[4, 0.1, 10]}
         type="Static"
       />
